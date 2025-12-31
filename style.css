@@ -1025,6 +1025,10 @@ footer {
 }
 
 
+  .faq-question .icon {
+    margin-left: 10px;
+  }
+
 /* ---------- MOBILE (≤ 768px) ---------- */
 @media (max-width: 768px) {
 
@@ -1053,6 +1057,14 @@ footer {
 
   .nav-links.active {
     display: flex;
+  }
+
+  .nav-links.active a:not(.btn-whatsapp) {
+    padding: 8px 140px;
+  }
+
+  .nav-links.active a {
+    margin: 0px;
   }
 
   /* Hero */
@@ -1094,6 +1106,9 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .faq-question .icon {
+    margin-left: 20px;
+  }
   .faq-answer p {
     font-size: 13px;
   }
@@ -1108,6 +1123,9 @@ footer {
   }
 }
 
+  .footer-bottom p {
+    font-size: 11px;
+  }
 
 /* ---------- SMALL MOBILE (≤ 576px) ---------- */
 @media (max-width: 576px) {
