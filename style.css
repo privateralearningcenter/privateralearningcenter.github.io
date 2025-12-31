@@ -1094,6 +1094,10 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .faq-answer p {
+    font-size: 13px;
+  }
+
   /* Floating WhatsApp */
   .float-whatsapp {
     width: 48px;
