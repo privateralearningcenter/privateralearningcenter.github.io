@@ -955,6 +955,19 @@ footer {
    RESPONSIVE STYLES
    Desktop-first approach
    ========================================================= */
+@media (max-width: 1024px) {
+  .navbar {
+    padding-right: 20px;
+  } 
+  
+  .nav-links a {
+    font-size: 13px;
+  }
+  .testimony-btn.prev { left: -20px; }
+  .testimony-btn.next { right: -20px; }
+
+}
+
 
 /* ---------- TABLET (≤ 992px) ---------- */
 @media (max-width: 992px) {
@@ -1182,4 +1195,5 @@ footer {
   .footer-content {
     gap: 20px;
   }
+
 }
